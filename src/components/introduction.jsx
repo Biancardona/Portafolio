@@ -53,7 +53,7 @@ export default class Introduction extends Component {
                           <p>
                             <a
                               className='btn btn-primary btn-learn'
-                              href='https://github.com/Dhruv34788'
+                              href='https://github.com/Biancardona'
                               target='_blank'
                               rel='noopener noreferrer'
                             >
@@ -80,7 +80,7 @@ export default class Introduction extends Component {
                           <p>
                             <a
                               className='btn btn-primary btn-learn'
-                              href='https://medium.com/@dhruv.barochia34788'
+                              href='https://fitterhappiergdl.com/'
                               target='_blank'
                               rel='noopener noreferrer'
                             >
