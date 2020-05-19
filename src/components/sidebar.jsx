@@ -44,14 +44,14 @@ export default class Sidebar extends Component {
                   </li>
                   <li>
                     <a href='#timeline' data-nav-section='timeline'>
-                      Timeline
+                      Expercience
                     </a>
                   </li>
-                  {/* <li>
+                  <li>
                     <a href='#contact' data-nav-section='contact'>
                       Contact
                     </a>
-                  </li> */}
+                  </li>
                 </ul>
               </div>
             </nav>

@@ -4,15 +4,15 @@ export default class Timeline extends Component {
   render() {
     return (
       <div>
-        <section className='colorlib-experience' data-section='timeline'>
+        <section data-section='timeline'>
           <div className='colorlib-narrow-content'>
             <div className='row'>
               <div
                 className='col-md-6 col-md-offset-3 col-md-pull-3 animate-box'
                 data-animate-effect='fadeInLeft'
               >
-                <span className='heading-meta'>highlights</span>
-                <h2 className='colorlib-heading animate-box'>Timeline</h2>
+                <span className='heading-meta'>Timeline</span>
+                <h2 className='colorlib-heading animate-box'>Experience</h2>
               </div>
             </div>
             <div className='row'>
@@ -24,7 +24,7 @@ export default class Timeline extends Component {
                   >
                     <div className='timeline-entry-inner'>
                       <div className='timeline-icon color-3'>
-                        <i className='icon-pen2' />
+                        <i className='icon-code' />
                       </div>
                       <div className='timeline-label'>
                         <h2>
@@ -80,11 +80,11 @@ export default class Timeline extends Component {
                         <br />
                         <a
                           className='btn btn-primary-timelinetwo btn-learn'
-                          href='https://www.laboratoria.la/'
+                          href='https://www.linkedin.com/company/mi-nutri%C3%B3logo/'
                           target='_blank'
                           rel='noopener noreferrer'
                         >
-                          More about Laboratoria
+                          More about Mi Nutriologo
                         </a>
                       </div>
                     </div>
