@@ -32,6 +32,7 @@ export default class Sidebar extends Component {
               <div id='navbar' className='collapse'>
                 <ul>
                   <li className='active'>
+                    <br />
                     <a href='#home' data-nav-section='home'>
                       Introduction
                     </a>
@@ -41,13 +42,16 @@ export default class Sidebar extends Component {
                       About
                     </a>
                   </li>
-                  {/*<li><a href="#" data-nav-section="projects">Projects</a></li>
-                  <li><a href="#" data-nav-section="blog">Blog</a></li>*/}
                   <li>
                     <a href='#timeline' data-nav-section='timeline'>
                       Timeline
                     </a>
                   </li>
+                  {/* <li>
+                    <a href='#contact' data-nav-section='contact'>
+                      Contact
+                    </a>
+                  </li> */}
                 </ul>
               </div>
             </nav>
@@ -85,8 +89,7 @@ export default class Sidebar extends Component {
             <div className='colorlib-footer'>
               <p>
                 <small>
-                  Made with <i className='icon-heart' aria-hidden='true' /> and{' '}
-                  <i className='icon-beer' aria-hidden='true'></i>
+                  Made with <i className='icon-heart' aria-hidden='true' />
                   <br></br>
                 </small>
               </p>

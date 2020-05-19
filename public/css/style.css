@@ -241,7 +241,7 @@ figure figcaption {
 }
 
 #colorlib-aside #colorlib-main-menu ul li.active a {
-  color: #2c98f0;
+  color: #131c24;
 }
 
 #colorlib-aside #colorlib-main-menu ul li.active a:after {
@@ -470,9 +470,9 @@ figure figcaption {
 }
 
 #colorlib-hero .flexslider .slider-text>.slider-text-inner .btn.btn-learn {
-  color: #000;
+  color: white;
   border: 1px solid #000;
-  background: transparent !important;
+  background: black !important;
 }
 
 #colorlib-hero .flexslider .slider-text>.slider-text-inner .btn.btn-learn:hover {
@@ -1660,6 +1660,18 @@ body.offcanvas .colorlib-nav-toggle {
   background: #2c98f0;
   color: #fff;
   border: 2px solid #2c98f0;
+}
+
+.btn-primary-timeline {
+  background: #f9bf3f;
+  color: #000;
+  border: 2px solid #f9bf3f;
+}
+
+.btn-primary-timelinetwo {
+  background: #a84cb8;
+  color: #000;
+  border: 2px solid #a84cb8;
 }
 
 .btn-primary:hover,
