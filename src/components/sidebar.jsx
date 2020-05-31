@@ -24,8 +24,17 @@ export default class Sidebar extends Component {
               <h1 id='colorlib-logo'>
                 <a href='index.html'>Bianca Cardona</a>
               </h1>
+              <p id='colorlib-phrase'>
+                {' '}
+                "Faithful to increase my knowledge in all aspects of my life is
+                my personal value."
+              </p>
               <span className='email'>
-                <i className='icon-mail'></i> biancardona.rivera@gmail.com
+                <i className='icon-mail'></i>{' '}
+                <a href='mailto:biancardona.rivera@gmail.com'>
+                  {' '}
+                  biancardona.rivera@gmail.com
+                </a>
               </span>
             </div>
             <nav id='colorlib-main-menu' role='navigation' className='navbar'>
@@ -89,7 +98,7 @@ export default class Sidebar extends Component {
             <div className='colorlib-footer'>
               <p>
                 <small>
-                  Made with <i className='icon-heart' aria-hidden='true' />
+                  {/* // Made with <i className='icon-heart' aria-hidden='true' /> */}
                   <br></br>
                 </small>
               </p>

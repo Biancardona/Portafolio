@@ -17,9 +17,10 @@ export default class About extends Component {
                       <span className='heading-meta'>About Me</span>
                       <h2 className='colorlib-heading'>Who Am I?</h2>
                       <p>
-                        Im a Frontend Developer and I have experience in
+                        Im a Frontend Developer and I have experience and enjoy
                         building websites and desktop applications using
-                        JavaScript, React, HTML, CSS.
+                        JavaScript ES6, HTML5, CSS3, ReactJS, NodeJS, Git, JSON
+                        & RESTful APIs.
                         <br /> I also have been interested in the self
                         care/fitness area, I have a blog where I write articles
                         about nutrition, and now I enjoy being able to couple
@@ -56,8 +57,7 @@ export default class About extends Component {
                     <p>
                       A web page to display a set of data of all the characters
                       in Rick & Morty series. Technology stack:
-                      <br /> UX, HTML5, CSS3, Vanilla JavaScript(ES6), Git,
-                      Github.
+                      <br /> UX, HTML5, CSS3, Vanilla JavaScript(ES6), Github.
                       <br />
                       <br />
                       <a
@@ -78,13 +78,13 @@ export default class About extends Component {
                     <i className='icon-phone3' />
                   </span>
                   <div className='desc'>
-                    <h3>lomitos-suavecitos</h3>
+                    <h3>Lomitoteca</h3>
                     <p>
                       A social network to share information with other users
                       about your pets.
                       <br /> Technology stack:
                       <br /> SPA, MVC, HTML5, CSS3, Vanilla JavaScript(ES6),
-                      Firebase, Git, Github.
+                      Firebase, Github.
                       <br />
                       <br />
                       <a
@@ -110,7 +110,7 @@ export default class About extends Component {
                       Website created with create-react-app where users could
                       find out information about many kind of movies.
                       <br /> Technology stack:
-                      <br /> HTML5, CSS3, ES6, React, Git, Github.
+                      <br /> CSS3, ES6, ReactJS/Hooks, Git.
                       <br />
                       <br />
                       <a

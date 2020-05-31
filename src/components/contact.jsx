@@ -18,15 +18,29 @@ export default class Contact extends Component {
                       <h2 className='colorlib-heading'>Contact</h2>
                     </div>
                     <span className='email'>
-                      <i className='icon-mail'></i> biancardona.rivera@gmail.com
+                      <i className='icon-mail'></i>{' '}
+                      <a href='mailto:biancardona.rivera@gmail.com'>
+                        {' '}
+                        biancardona.rivera@gmail.com
+                      </a>
                     </span>
-
-                    <br />
-                    <br />
-                    <div className='colorlib-icon'>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    );
+  }
+}
+{
+  /* <br />
+                  <div className='colorlib-icon'>
+                    <div className='colorlib-narrow-content-contact'>
                       <nav id='colorlib-main-menu'>
                         <ul>
-                          <div
+                          <li
                             className='colorlib-feature-sm animate-box fadeInLeft animated'
                             data-animate-effect='fadeInLeft'
                           >
@@ -37,8 +51,8 @@ export default class Contact extends Component {
                             >
                               <i className='icon-linkedin2 colorlib-icons colorlib-features'></i>
                             </a>
-                          </div>
-                          <div
+                          </li>
+                          <li
                             className='colorlib-feature-sm animate-box fadeInLeft animated'
                             data-animate-effect='fadeInLeft'
                           >
@@ -49,8 +63,8 @@ export default class Contact extends Component {
                             >
                               <i className='icon-github colorlib-icons colorlib-features'></i>
                             </a>
-                          </div>
-                          <div
+                          </li>
+                          <li
                             className='colorlib-feature-sm animate-box fadeInLeft animated'
                             data-animate-effect='fadeInLeft'
                           >
@@ -61,17 +75,9 @@ export default class Contact extends Component {
                             >
                               <i className='icon-blogger2 colorlib-icons colorlib-feature'></i>
                             </a>
-                          </div>
+                          </li>
                         </ul>
                       </nav>
                     </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-      </div>
-    );
-  }
+                  </div> */
 }
