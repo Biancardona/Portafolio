@@ -5,6 +5,7 @@ import Introduction from './components/introduction'
 import About from './components/about'
 import Timeline from './components/timeline'
 import Contact from './components/contact'
+import Education from './components/education'
 class App extends Component {
   render() {
     return (
@@ -15,6 +16,7 @@ class App extends Component {
             <Introduction></Introduction>
             <About></About>
             <Timeline></Timeline>
+            <Education></Education>
             <Contact></Contact>
           </div>
         </div>

@@ -89,29 +89,7 @@ export default class Timeline extends Component {
                       </div>
                     </div>
                   </article>
-                  <article
-                    className='timeline-entry animate-box'
-                    data-animate-effect='fadeInLeft'
-                  >
-                    <div className='timeline-entry-inner'>
-                      <div className='timeline-icon color-5'>
-                        <i className='icon-pen2' />
-                      </div>
-                      <div className='timeline-label'>
-                        <h2>
-                          SPORT´S NUTRITION <span>2015-2016</span>
-                        </h2>
-                        <p>
-                          I have completed a Sport´s Nutrition certification
-                          from SportMed Clinic plus ISAK Level 1 Anthropometry.
-                          During my time at this course I learned formal
-                          techniques to measure the human body as well as
-                          calculate macronutrients in order to desing different
-                          types of nutritional programs.
-                        </p>
-                      </div>
-                    </div>
-                  </article>
+
                   <article
                     className='timeline-entry begin animate-box'
                     data-animate-effect='fadeInBottom'

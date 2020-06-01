@@ -9,7 +9,7 @@ export default class About extends Component {
             <div className='row'>
               <div className='col-md-12'>
                 <div
-                  className='row row-bottom-padded-sm animate-box'
+                  className='row animate-box'
                   data-animate-effect='fadeInLeft'
                 >
                   <div className='col-md-12'>
