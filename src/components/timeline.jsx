@@ -74,7 +74,7 @@ export default class Timeline extends Component {
                           design and program a nutritional menu. Also I was in
                           charge of attending users concerns, doubts and
                           comments remotely. During my time in 'Mi Nutriologo',
-                          I developed interest in learning programming and find
+                          I developed interest in learning programming and found
                           a way to relate this area with the IT industry.
                         </p>
                         <br />

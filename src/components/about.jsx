@@ -23,7 +23,7 @@ export default class About extends Component {
                         & RESTful APIs.
                         <br /> I also have been interested in the self
                         care/fitness area, I have a blog where I write articles
-                        about nutrition, and now I enjoy being able to couple
+                        about nutrition, and now I enjoy being able to integrate
                         both passions in one.{' '}
                       </p>
                     </div>
