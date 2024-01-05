@@ -22,7 +22,7 @@ export default class Introduction extends Component {
                           <p>
                             <a
                               className='btn btn-primary btn-learn'
-                              href='https://drive.google.com/file/d/1ywoAi149SaS22PDcBE2ih6r6eIVOjgyy/view?usp=sharing'
+                              href='https://drive.google.com/file/d/1GzvHszCey_H7qOxAySWe5ME6pZ8KiL3L/view?usp=sharing'
                               target='_blank'
                               rel='noopener noreferrer'
                             >
@@ -43,11 +43,9 @@ export default class Introduction extends Component {
                     <div className='col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text'>
                       <div className='slider-text-inner'>
                         <div className='desc'>
-                          <h1>
-                            I love to create things
-                            <br />
-                            with JS!!
-                          </h1>
+                          <h2>
+                            A passionate creator in crafting applications!!
+                          </h2>
                           <p>
                             <a
                               className='btn btn-primary btn-learn'
@@ -71,11 +69,12 @@ export default class Introduction extends Component {
                     <div className='col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text'>
                       <div className='slider-text-inner'>
                         <div className='desc'>
-                          <h1>
-                            and I also
-                            <br />
-                            Write!{' '}
-                          </h1>
+                          <h2>
+                            Beyond coding,
+                            <br />I find joy in expressing myself through
+                            writing about nutrition and self-care on my personal
+                            blog{' '}
+                          </h2>
                           <p>
                             <a
                               className='btn btn-primary btn-learn'

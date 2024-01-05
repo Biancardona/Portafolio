@@ -17,14 +17,25 @@ export default class About extends Component {
                       <span className='heading-meta'>About Me</span>
                       <h2 className='colorlib-heading'>Who Am I?</h2>
                       <p>
-                        Im a Frontend Developer and I have experience and enjoy
-                        building websites and desktop applications using
-                        JavaScript ES6, HTML5, CSS3, ReactJS, NodeJS, Git, JSON
-                        & RESTful APIs.
-                        <br /> I also have been interested in the self
-                        care/fitness area, I have a blog where I write articles
-                        about nutrition, and now I enjoy being able to integrate
-                        both passions in one.{' '}
+                        During my 3 years of professional experience as a
+                        Front-End Developer, I have expertise in crafting
+                        websites and desktop applications using a versatile
+                        stack including, ES6, HTML5, ReactJS, NodeJS, JSON &
+                        RESTful APIs, MongoDB, etc. My journey in software
+                        development has not only seen improvement in my
+                        technical prowess but also significant growth in my soft
+                        skills, making me an effective communicator, problem
+                        solver, and adaptable professional in addition to my
+                        technical capabilities.
+                        <br /> I'm deeply passionate about the intersection of
+                        self-care and fitness. My enthusiasm extends to my blog,
+                        where I meticulously craft articles focused on
+                        nutrition. It's incredibly gratifying to seamlessly
+                        integrate both my roles as a software developer and my
+                        commitment to self-care. This synergy allows me to
+                        explore innovative ways to harmonize technology and
+                        well-being, creating a unique and enriching experience
+                        for myself.{' '}
                       </p>
                     </div>
                   </div>
@@ -53,16 +64,21 @@ export default class About extends Component {
                     <i className='icon-data' />
                   </span>
                   <div className='desc'>
-                    <h3>Rick & Morty DATA </h3>
+                    <h3>Veterinary Patients App </h3>
                     <p>
-                      A web page to display a set of data of all the characters
-                      in Rick & Morty series. Technology stack:
-                      <br /> UX, HTML5, CSS3, Vanilla JavaScript(ES6), Github.
+                      Tailored for veterinarians, this application provides a
+                      platform to effortlessly manage and organize patient data.
+                      with a login and authentication features, seamlessly
+                      interfacing with a database to execute all CRUD methods
+                      for efficient and handling of patient information.
+                      <br /> Technology stack:
+                      <br /> JavaScript, (ES6), React, Context Hook, Express,
+                      NodeJS, MongoDB, Tailwind, Vite.
                       <br />
                       <br />
                       <a
                         className='btn btn-primary btn-learn'
-                        href='https://biancardona.github.io/GDL004-data-lovers/src/index.html'
+                        href='https://veterinary-patients-app-front-end.vercel.app/'
                         target='_blank'
                         rel='noopener noreferrer'
                       >
@@ -78,18 +94,99 @@ export default class About extends Component {
                     <i className='icon-phone3' />
                   </span>
                   <div className='desc'>
-                    <h3>Lomitoteca</h3>
+                    <h3>Loan Quote-REACT</h3>
                     <p>
-                      A social network to share information with other users
-                      about your pets.
+                      A financial application that calculates the repayment
+                      amount based on the borrowing term and loan amount.
                       <br /> Technology stack:
-                      <br /> SPA, MVC, HTML5, CSS3, Vanilla JavaScript(ES6),
-                      Firebase, Github.
+                      <br /> JavaScript(ES6), React, React-Router-Dom, Tailwind,
+                      Vite, GitHub.
                       <br />
                       <br />
                       <a
                         className='btn btn-primary btn-learn'
-                        href='https://biancardona.github.io/lomitos-suavecitos/'
+                        href='https://biancardona.github.io/LoanQuote-REACT/'
+                        target='_blank'
+                        rel='noopener noreferrer'
+                      >
+                        View web page
+                      </a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className='col-md-4 text-center animate-box'>
+                <div className='services color-5'>
+                  <span className='icon'>
+                    <i className='icon-video-outline' />
+                  </span>
+                  <div className='desc'>
+                    <h3>Travel Agency-NODE</h3>
+                    <p>
+                      A dynamic web application seamlessly linked to a database,
+                      designed to present information for a travel agency.
+                      <br /> Technology stack:
+                      <br /> NodeJs, Express, mySQL, Sequelize, Boostrap, Pug,
+                      GitHub, MVC Architecture, Filess, TablePlus.
+                      <br />
+                      <br />
+                      <a
+                        className='btn btn-primary btn-learn'
+                        href='https://travelagency-node.onrender.com/'
+                        target='_blank'
+                        rel='noopener noreferrer'
+                      >
+                        View web page
+                      </a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className='row row-pt-md'>
+              <div className='col-md-4 text-center animate-box'>
+                <div className='services color-1'>
+                  <span className='icon'>
+                    <i className='icon-data' />
+                  </span>
+                  <div className='desc'>
+                    <h3>Weather App</h3>
+                    <p>
+                      Within this application, an API is invoked to dynamically
+                      retrieve and display current weather information based on
+                      user-inputted city and country details.Technology stack:
+                      <br /> HTML5, CSS3, Vanilla JavaScript(ES6), Github,
+                      Netlify, Parcel.
+                      <br />
+                      <br />
+                      <a
+                        className='btn btn-primary btn-learn'
+                        href='https://climaappjs.netlify.app/'
+                        target='_blank'
+                        rel='noopener noreferrer'
+                      >
+                        View web page
+                      </a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className='col-md-4 text-center animate-box'>
+                <div className='services color-3'>
+                  <span className='icon'>
+                    <i className='icon-phone3' />
+                  </span>
+                  <div className='desc'>
+                    <h3>Rick & Morty DATA </h3>
+                    <p>
+                      A web page to display a set of data of all the characters
+                      in Rick & Morty series. Technology stack:
+                      <br /> UX, HTML5, CSS3, Vanilla JavaScript(ES6), Github.
+                      <br />
+                      <br />
+                      <a
+                        className='btn btn-primary btn-learn'
+                        href='https://biancardona.github.io/GDL004-data-lovers/src/index.html'
                         target='_blank'
                         rel='noopener noreferrer'
                       >

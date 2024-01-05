@@ -26,8 +26,7 @@ export default class Sidebar extends Component {
               </h1>
               <p id='colorlib-phrase'>
                 {' '}
-                "Faithful to increase my knowledge in all aspects of my life is
-                my personal value."
+                "Faithful to increasing my knowledge in all aspects of my life."
               </p>
               <span className='email'>
                 <i className='icon-mail'></i>{' '}

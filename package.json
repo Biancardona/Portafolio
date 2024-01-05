@@ -2,12 +2,16 @@
   "name": "portfolio-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://portafolio-42068.web.app/",
+  "homepage": "https://biancardona.io/portafolio",
   "dependencies": {
-    "gh-pages": "^2.0.1",
+    "16": "^0.0.2",
+    "bootstrap": "^5.1.3",
+    "bootstrap-icons": "^1.11.2",
     "react": "^16.8.3",
+    "react-bootstrap": "^2.9.1",
+    "react-bootstrap-icons": "^1.10.3",
     "react-dom": "^16.8.3",
-    "react-scripts": "2.1.5",
+    "react-scripts": "^5.0.1",
     "travis": "^0.1.1",
     "yarn": "^1.13.0"
   },
@@ -27,5 +31,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  }
 }

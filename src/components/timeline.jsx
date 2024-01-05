@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { CodeSlash, PencilFill, PenFill } from 'react-bootstrap-icons';
 
 export default class Timeline extends Component {
   render() {
@@ -20,36 +21,127 @@ export default class Timeline extends Component {
                 <div className='timeline-centered'>
                   <article
                     className='timeline-entry animate-box'
-                    data-animate-effect='fadeInLeft'
+                    data-animate-effect='fadeInTop'
                   >
                     <div className='timeline-entry-inner'>
-                      <div className='timeline-icon color-3'>
+                      <div className='timeline-icon color'>
                         <i className='icon-code' />
                       </div>
                       <div className='timeline-label'>
                         <h2>
-                          BOOTCAMP LABORATORIA <span> 2019-present</span>
+                          FULL STACK DEVELOPER <span>Apr 2023 - Dic 2023</span>
                         </h2>
+                        <h3> Improving</h3>
                         <p>
-                          During my time at Laboratoria I developed several JS
-                          projects using agile methodologies. I Worked in an
-                          environment similar to the ones in the current IT
-                          industry. I acquired JS development skills as well as
-                          soft skills that enabled me to strengthen my
-                          communication and teamwork abilities; as well as
-                          adaptability and planning of different types of JS
-                          projects.
-                          <br />
-                          <br />
-                          <a
-                            className='btn btn-primary-timeline btn-learn'
-                            href='https://www.laboratoria.la/'
-                            target='_blank'
-                            rel='noopener noreferrer'
-                          >
-                            More about Laboratoria
-                          </a>
+                          Throughout this period, I've dedicated myself to
+                          enhancing and mastering my backend stack by developing
+                          various types of applications using technologies such
+                          as React, Tailwind CSS, NodeJS, MongoDB. Currently,
+                          I'm actively engaged in developing a serverless
+                          projects with AWS, Typescript, CDK V2, CloudFormation,
+                          Cognito, Lambda and Amplify.
                         </p>
+                        <p>
+                          <bold>TECHNOLOGY STACK: </bold>JavaScript, (ES6),
+                          React, NodeJS, MongoDB, AWS, Typescript.
+                        </p>
+                        <br />
+                        <a
+                          className='btn btn-primary-timeline btn-learn'
+                          href='https://www.linkedin.com/showcase/improving-nearshore/posts/?feedView=all'
+                          target='_blank'
+                          rel='noopener noreferrer'
+                        >
+                          More about Improving
+                        </a>
+                      </div>
+                    </div>
+                  </article>
+                  <article
+                    className='timeline-entry animate-box'
+                    data-animate-effect='fadeInLeft'
+                  >
+                    <div className='timeline-entry-inner'>
+                      <div className='timeline-icon color-2'>
+                        <PencilFill className='icon' />
+                      </div>
+                      <div className='timeline-label'>
+                        <h2>
+                          FORM CREATOR
+                          <span> Mar 2021-Apr 2023</span>
+                        </h2>
+                        <h3> Improving/Auxita</h3>
+                        <p>
+                          I employed a library called Blockly, specifically
+                          designed for constructing visual programming editors.
+                          My daily responsibilities revolved around developing
+                          and rigorously testing a digital adaptation of PDF
+                          forms.This solution was aimed at enabling end-users,
+                          primarily physicians, to seamlessly input information
+                          into these forms through an application.
+                        </p>
+                        <p>
+                          ACHIEVEMENTS:The enhanced platforms facilitated
+                          seamless collaboration between patients and doctors,
+                          streamlined development processes, ensured data
+                          security, and provided scalability and reliability.
+                          The project’s success serves as a testament to the
+                          value of strong partnerships and the effective
+                          implementation of technology-driven solutions.
+                        </p>
+                        <br />
+                        <a
+                          className='btn btn-primary-timelinetwo btn-learn'
+                          href='https://auxita.com/'
+                          target='_blank'
+                          rel='noopener noreferrer'
+                        >
+                          More about Auxita
+                        </a>
+                      </div>
+                    </div>
+                  </article>
+                  <article
+                    className='timeline-entry animate-box'
+                    data-animate-effect='fadeInTop'
+                  >
+                    <div className='timeline-entry-inner'>
+                      <div className='timeline-icon color-3'>
+                        <CodeSlash className='icon' />
+                      </div>
+                      <div className='timeline-label'>
+                        <h2>
+                          INTERN FRONTEND DEVELOPER
+                          <span> 2020-2021</span>
+                        </h2>
+                        <h3> Improving</h3>
+                        <p>
+                          Gained hands-on experience in implementing agile
+                          methodologies within the dynamic landscape of a
+                          substantial development team. Expertly navigated
+                          through Scrum and Kanban frameworks, leveraging the
+                          power of Jira for streamlined activity tracking.
+                          Implemented internal checklists to catalyze the
+                          efficiency of our development process, ensuring a
+                          well-orchestrated workflow. Drove the creation and
+                          meticulous organization of Confluence documentation,
+                          fostering a knowledge-sharing culture. Additionally,
+                          played a pivotal role in coordinating team activities,
+                          contributing to the cultivation of a healthier and
+                          more integrated work environment. The seamless
+                          integration of these practices not only enhanced
+                          project efficiency but also nurtured a collaborative
+                          and synergistic team atmosphere.
+                        </p>
+                        <br />
+                        <a
+                          className='btn btn-primary-timelinethree btn-learn'
+                          href='https://www.linkedin.com/showcase/improving-nearshore/posts/?feedView=all'
+                          target='_blank'
+                          rel='noopener noreferrer'
+                        >
+                          More about Improving
+                        </a>
                       </div>
                     </div>
                   </article>
@@ -59,27 +151,29 @@ export default class Timeline extends Component {
                   >
                     <div className='timeline-entry-inner'>
                       <div className='timeline-icon color-4'>
-                        <i className='icon-device-laptop' />
+                        <PenFill className='icon' />
                       </div>
                       <div className='timeline-label'>
                         <h2>
                           DIGITAL CONTENT AUTHOR MI NUTRIOLOGO APP{' '}
                           <span>2018-2019</span>
                         </h2>
+                        <h3> Mi Nutriologo App</h3>
                         <p>
-                          Online Nutrition consultancy, my activities included
+                          Online Nutrition consultancy. My activities included
                           tracking the progress of subscribers to achieve a
-                          healthier lifestyle; updated the users database,
-                          gathered information that later was used to calculate,
-                          design and program a nutritional menu. Also I was in
-                          charge of attending users concerns, doubts and
-                          comments remotely. During my time in 'Mi Nutriologo',
-                          I developed interest in learning programming and found
-                          a way to relate this area with the IT industry.
+                          healthier lifestyle; updating the users database,
+                          gathering information that later was used to
+                          calculate, designing and programming a nutritional
+                          menu. Also, I was in charge of remotely attending
+                          users concerns, doubts and comments. During my time in
+                          'Mi Nutriologo', I developed interest in learning
+                          programming and found a way to relate to this area
+                          with the IT industry.
                         </p>
                         <br />
                         <a
-                          className='btn btn-primary-timelinetwo btn-learn'
+                          className='btn btn-primary-timelinefour btn-learn'
                           href='https://www.linkedin.com/company/mi-nutri%C3%B3logo/'
                           target='_blank'
                           rel='noopener noreferrer'

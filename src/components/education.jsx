@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { FiletypeJs } from 'react-bootstrap-icons';
 
 export default class Education extends Component {
   render() {
@@ -20,6 +21,29 @@ export default class Education extends Component {
                 <div className='timeline-centered'>
                   <article
                     className='timeline-entry animate-box'
+                    data-animate-effect='fadeInTop'
+                  >
+                    <div className='timeline-entry-inner'>
+                      <div className='timeline-icon color-5'>
+                        <FiletypeJs className='icon' />
+                      </div>
+                      <div className='timeline-label'>
+                        <h2>
+                          FRONTEND DEVELOPER <span>2015-2016</span>
+                        </h2>
+                        <h3> Laboratoria</h3>
+                        <p>
+                          I was trained on JS Frontend development by creating
+                          several projects implementing agile methodologies,
+                          using Javascript, HTML5, CSS, React, among others.
+                          Including technical and soft skills as well as
+                          self-study techniques.
+                        </p>
+                      </div>
+                    </div>
+                  </article>
+                  <article
+                    className='timeline-entry animate-box'
                     data-animate-effect='fadeInLeft'
                   >
                     <div className='timeline-entry-inner'>
@@ -28,25 +52,25 @@ export default class Education extends Component {
                       </div>
                       <div className='timeline-label'>
                         <h2>
-                          SPORT´S NUTRITION <span>2015-2016</span>
+                          SPORT NUTRITION <span>2015-2016</span>
                         </h2>
                         <p>
-                          I have completed a Sport´s Nutrition certification
-                          from SportMed Clinic plus Level 1 Anthropometry,
+                          I have completed a Sport Nutrition course from
+                          SportMed Clinic plus Level 1 Anthropometry,
                           internationally recognised by the International
                           Society for the Advancement of Kinanthropometry
                           (ISAK). During my time at this course I learned formal
-                          techniques to measure the human body as well as
-                          calculate macronutrients in order to desing different
-                          types of nutritional programs; with emphasized on
-                          sports nutrition.
+                          techniques to measure the human body as well as to
+                          calculate macronutrients in order to design different
+                          types of nutritional programs; with emphasis on sports
+                          nutrition.
                         </p>
                       </div>
                     </div>
                   </article>
                   <article
                     className='timeline-entry animate-box'
-                    data-animate-effect='fadeInTop'
+                    data-animate-effect='fadeInBottom'
                   >
                     <div className='timeline-entry-inner'>
                       <div className='timeline-icon color-2'>
@@ -59,7 +83,7 @@ export default class Education extends Component {
                         <p>
                           I graduated from the Centro Universitario de Ciencias
                           Sociales y Humanidades from University of Guadalajara,
-                          obtaining my bachelor's degree as a Lawyer.
+                          obtaining my bachelor's degree.
                         </p>
                         <br />
                       </div>
