@@ -207,7 +207,7 @@
 
 
 
-	var sliderMain = function () {
+	var slider = function () {
 
 		$('#colorlib-hero .flexslider').flexslider({
 			animation: "fade",
@@ -301,7 +301,7 @@
 
 
 		mobileMenuOutsideClick();
-		sliderMain();
+		slider();
 		stickyFunction();
 		owlCrouselFeatureSlide();
 	});

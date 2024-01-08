@@ -17,14 +17,17 @@ export default class About extends Component {
                       <span className='heading-meta'>About Me</span>
                       <h2 className='colorlib-heading'>Who Am I?</h2>
                       <p>
-                        Im a Frontend Developer and I have experience and enjoy
-                        building websites and desktop applications using
-                        JavaScript ES6, HTML5, CSS3, ReactJS, NodeJS, Git, JSON
-                        & RESTful APIs.
-                        <br /> I also have been interested in the self
-                        care/fitness area, I have a blog where I write articles
-                        about nutrition, and now I enjoy being able to integrate
-                        both passions in one.{' '}
+                        During my 3 years of professional experience as a
+                        Front-End Developer, I have expertise in crafting
+                        websites and desktop applications. using a versatile
+                        stack including, ES6, HTML5, ReactJS, NodeJS, JSON &
+                        RESTful APIs, MongoDB, etc.
+                        <br />
+                        <br /> My journey in software development has not only
+                        seen improvement in my technical prowess but also
+                        significant growth in my soft skills, making me an
+                        effective communicator, problem solver, and adaptable
+                        professional in addition to my technical capabilities.{' '}
                       </p>
                     </div>
                   </div>
@@ -42,7 +45,7 @@ export default class About extends Component {
               >
                 <span className='heading-meta'>What I do?</span>
                 <h2 className='colorlib-heading'>
-                  Here are some of my proyects
+                  Here are some of my personal projects
                 </h2>
               </div>
             </div>
