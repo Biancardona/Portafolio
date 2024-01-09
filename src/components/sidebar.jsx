@@ -70,6 +70,16 @@ export default class Sidebar extends Component {
             </nav>
             <nav id='colorlib-main-menu'>
               <ul>
+                {' '}
+                <li>
+                  <a
+                    href='https://drive.google.com/file/d/1GmMva9MFioEppl0OBW4nmIrbNK4kyd6U/view?usp=sharing'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
+                    <i className='icon-file'></i>
+                  </a>
+                </li>
                 <li>
                   <a
                     href='https://www.linkedin.com/in/bianca-cardona-rivera/'

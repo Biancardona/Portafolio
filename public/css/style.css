@@ -26,6 +26,10 @@ body {
   }
 }
 
+
+
+
+
 a {
   color: #2c98f0;
   -webkit-transition: 0.5s;
@@ -225,6 +229,7 @@ figure figcaption {
   -o-transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
+
 
 #colorlib-aside #colorlib-main-menu ul li a:hover {
   text-decoration: none;
@@ -438,7 +443,7 @@ figure figcaption {
   font-size: 18px;
   line-height: 1.5;
   margin-bottom: 30px;
-  font-weight: 300;
+  font-weight: 400;
   font-family: "Quicksand", Arial, sans-serif;
 }
 

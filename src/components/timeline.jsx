@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+
 import { CodeSlash, PencilFill, PenFill } from 'react-bootstrap-icons';
 
 export default class Timeline extends Component {

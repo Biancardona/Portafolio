@@ -27,6 +27,7 @@ export default class About extends Component {
                         skills, making me an effective communicator, problem
                         solver, and adaptable professional in addition to my
                         technical capabilities.
+                        <br />
                         <br /> I'm deeply passionate about the intersection of
                         self-care and fitness. My enthusiasm extends to my blog,
                         where I meticulously craft articles focused on

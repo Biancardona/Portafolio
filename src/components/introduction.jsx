@@ -22,7 +22,7 @@ export default class Introduction extends Component {
                           <p>
                             <a
                               className='btn btn-primary btn-learn'
-                              href='https://drive.google.com/file/d/1GzvHszCey_H7qOxAySWe5ME6pZ8KiL3L/view?usp=sharing'
+                              href='https://drive.google.com/file/d/1GmMva9MFioEppl0OBW4nmIrbNK4kyd6U/view?usp=sharing'
                               target='_blank'
                               rel='noopener noreferrer'
                             >
@@ -72,8 +72,7 @@ export default class Introduction extends Component {
                           <h2>
                             Beyond coding,
                             <br />I find joy in expressing myself through
-                            writing about nutrition and self-care on my personal
-                            blog{' '}
+                            writing on my personal blog{' '}
                           </h2>
                           <p>
                             <a
